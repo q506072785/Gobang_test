@@ -190,7 +190,7 @@ var computerAI = function(){
                     }
                 }
                 if(computerScore[i][j]>max){
-                    max= myScore[i][j];
+                    max= computerScore[i][j];
                     u = i;
                     v = j;
                 }else if(computerScore[i][j] == max){
